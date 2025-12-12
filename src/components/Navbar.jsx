@@ -28,12 +28,12 @@ const Navbar = () => {
     useEffect(() => {
         if (isSuccess) {
             toast.success(data.message || "User Logout.")
-            navigate("/")
         }
     }, [isSuccess])
 
     const logoutHandler = async () => {
         await logoutUser()
+        window.location.href = "/";
     }
 
     return (
