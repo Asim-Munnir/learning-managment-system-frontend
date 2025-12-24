@@ -1,14 +1,6 @@
 import { AppWindowIcon, CodeIcon, Loader2 } from "lucide-react"
 
 
-
-
-
-
-
-// password: ZoK3yKloQ43Pjrwv
-// username: asimmunnir1_db_user
-
 import { Button } from "@/components/ui/button"
 import {
     Card,
